@@ -116,7 +116,7 @@ const TaskDashboard = () => {
                         <button type='submit' className='button'>Add Task</button>
                     </form>
                 </div>
-                <ul className='ul'>
+                <ul className='ul mt-5'>
                     {taskList.length > 0 ? (taskList.map((Task, index) =>
                         <li className='li d-flex align-items-center' key={Task.id}>
                             <span className='me-1 mb-auto mt-auto' >{index + 1}.</span>
